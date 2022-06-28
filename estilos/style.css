@@ -14,7 +14,7 @@ html,body{
 }
 
 body{
-    background: url(/imagens/fundo-preto-madeira.jpg) no-repeat center center;
+    background: url('../imagens/fundo-preto-madeira.jpg') no-repeat center center;
     background-size: cover ;
     background-attachment: fixed;
    
@@ -33,8 +33,7 @@ main{
 
     height: 529px;
     width: 262px;
-    background-color: brown;
-    background: url(/imagens/telefone.png) no-repeat;
+    background: url('../imagens/telefone.png') no-repeat;
      
 }
 
