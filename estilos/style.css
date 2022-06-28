@@ -51,12 +51,12 @@ section#redes-sociais{
     display: flex;
     flex-flow: column wrap;
     align-items: flex-end;
-
+    
 }
 
 .redes-img{
      width: 50px; 
-     margin: 10px 5px 0px 0px ;
+     margin: 10px 15px 0px 0px ;
      border-radius: 50%;
 }
 
@@ -64,6 +64,7 @@ section#redes-sociais{
     width: 53px;
     box-shadow: 0px 0px 10px rgb(255, 255, 255);
     transition: width 0.3s;
+    transform: translate(-5px);
 }
 
 .redes-img:active{
