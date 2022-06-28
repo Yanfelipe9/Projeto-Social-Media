@@ -38,13 +38,37 @@ main{
      
 }
 
-#telefone-iframe{
-    background-color: aquamarine;
-    width: 225px;
-    height: 400px;
-    position:absolute;
-    top: 12%;
-    left: 7%;
+
+iframe#tela{
+    position: relative;
+    top: 63px;
+    left: 19px;
+    width: 223px;
+    height: 398px;
 
 }
 
+section#redes-sociais{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+
+}
+
+.redes-img{
+     width: 50px; 
+     margin: 10px 5px 0px 0px ;
+     border-radius: 50%;
+}
+
+.redes-img:hover{
+    width: 55px;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    transition: width 0.3s;
+}
+
+.redes-img:active{
+    width: 50px;
+    transition: 0.2s;
+    box-shadow: 0px 0px 20px rgb(145, 145, 145);
+}
